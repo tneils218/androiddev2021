@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
+* Name: Trần Trung Nhật 
+* ID: BI8-135 
+* Group ID: 12 - Wordpress
 
