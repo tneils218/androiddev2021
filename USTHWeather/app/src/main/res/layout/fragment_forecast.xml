@@ -15,8 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="@dimen/usual_align"
+            android:paddingLeft="@dimen/forecast_weather_padding_left"
             android:paddingRight="@dimen/usual_align"
+            android:paddingTop="@dimen/usual_align"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -35,7 +36,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/monday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -47,7 +48,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
-                    android:src="@drawable/ic_cloud_moon_rain_solid" />
+                    android:src="@drawable/ic_sun_solid" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -79,7 +80,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/tuesday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -91,7 +92,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
-                    android:src="@drawable/ic_cloud_rain_solid" />
+                    android:src="@drawable/ic_cloud_showers_heavy_solid" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -123,7 +124,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/wednesday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -167,7 +168,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/thursday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -175,7 +176,7 @@
 
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_height="42dp"
+                    android:layout_height="@dimen/weather_icon_height"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
@@ -211,7 +212,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/friday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -255,7 +256,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/saturday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -267,7 +268,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
-                    android:src="@drawable/ic_cloudversify_brands" />
+                    android:src="@drawable/ic_snowflake_solid" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -299,7 +300,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/sunday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -312,7 +313,6 @@
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
                     android:src="@drawable/ic_cloud_moon_rain_solid" />
-
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -344,7 +344,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/monday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -352,7 +352,7 @@
 
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_height="39dp"
+                    android:layout_height="@dimen/weather_icon_height"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
@@ -388,7 +388,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/tuesday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"
@@ -400,7 +400,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="@dimen/weather_icon_padding"
-                    android:src="@drawable/ic_snowflake_solid" />
+                    android:src="@drawable/ic_cloud_showers_heavy_solid" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -431,7 +431,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
+                    android:gravity="center_vertical"
                     android:text="@string/wednesday"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black"

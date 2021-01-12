@@ -4,6 +4,7 @@
     <dimen name="date_font_size">18sp</dimen>
     <dimen name="weather_icon_padding">8dp</dimen>
     <dimen name="weather_icon_height">42dp</dimen>
-    <dimen name="detail_weather_icon_margin">40dp</dimen>
+    <dimen name="detail_weather_icon_margin">20dp</dimen>
     <dimen name="detail_weather_icon_height">102dp</dimen>
+    <dimen name="forecast_weather_padding_left">60dp</dimen>
 </resources>

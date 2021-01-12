@@ -15,7 +15,7 @@
             class="vn.edu.usth.usthweather.WeatherFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/usual_align" />
+            android:layout_marginTop="@dimen/usual_align" />
 
         <fragment
             android:id="@+id/week_weather"
