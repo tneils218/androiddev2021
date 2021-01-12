@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -7,7 +6,6 @@
     android:layout_alignParentStart="true"
     android:layout_alignParentTop="true"
     android:layout_alignParentLeft="true">
-<!--    android:background=>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,10 +20,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="290dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_weather_icon_height"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/ic_cloudversify_brands"/>
+        android:layout_marginTop="@dimen/detail_weather_icon_margin"
+        android:layout_marginBottom="@dimen/detail_weather_icon_margin"
+        android:src="@drawable/ic_cloudversify_brands" />
 </FrameLayout>

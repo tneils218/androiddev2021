@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH Dự Báo Thời Tiết</string>
+    <string name="cloudy_day">Nhiều Mây</string>
+    <string name="monday">Thứ Hai</string>
+    <string name="tuesday">Thứ Ba</string>
+    <string name="wednesday">Thứ Tư</string>
+    <string name="thursday">Thứ Năm</string>
+    <string name="friday">Thứ Sáu</string>
+    <string name="saturday">Thứ Bảy</string>
+    <string name="sunday">Chủ Nhật</string>
+    <string name="thunder">Sấm Sét</string>
+    <string name="sunny">Nắng</string>
+    <string name="wind">Nhiều gió</string>
+    <string name="action_settings">Tùy Chỉnh</string>
+    <string name="detail_forecast">24⁰C\n        Nhiều Mây</string>
+</resources>

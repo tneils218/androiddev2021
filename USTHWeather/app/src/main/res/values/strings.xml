@@ -1,16 +1,17 @@
+
 <resources>
     <string name="app_name">USTH Weather</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="main_fragment_label">Main Fragment</string>
-    <string name="forecast_fragment_label">Forecast Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="main_fragment_label" translatable="false">Main Fragment</string>
+    <string name="forecast_fragment_label" translatable="false">Forecast Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
     <string name="cloudy_day">Cloudy</string>
-    <string name="temp">24⁰C - 31⁰C</string>
+    <string name="temp" translatable="false">24⁰C - 31⁰C</string>
 
     <string name="monday">Mon</string>
     <string name="tuesday">Tues</string>
@@ -22,8 +23,6 @@
     <string name="thunder">Thunder</string>
     <string name="sunny">Sunny</string>
     <string name="wind">Windy</string>
-    <string name="city">Paris</string>
-    <string name="detail_forecast">24⁰C
-        \n
-        Cloudy</string>
+    <string name="city" translatable="false">Paris</string>
+    <string name="detail_forecast">24⁰C\n        Cloudy</string>
 </resources>
