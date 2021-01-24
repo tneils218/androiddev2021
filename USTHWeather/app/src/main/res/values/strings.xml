@@ -1,4 +1,3 @@
-
 <resources>
     <string name="app_name">USTH Weather</string>
     <string name="action_settings">Settings</string>
@@ -25,4 +24,10 @@
     <string name="wind">Windy</string>
     <string name="city" translatable="false">Paris</string>
     <string name="detail_forecast">24⁰C\n        Cloudy</string>
+    <string name="title_activity_pref">PrefActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_setting">Setting</string>
 </resources>
