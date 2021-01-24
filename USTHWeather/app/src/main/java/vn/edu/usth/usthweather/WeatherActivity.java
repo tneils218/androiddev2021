@@ -2,8 +2,10 @@ package vn.edu.usth.usthweather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.provider.Settings;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -32,7 +34,12 @@ public class WeatherActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
         tabLayout.setupWithViewPager(pager);
+        MediaPlayer player = MediaPlayer.create(this, R.raw.song);
+        player.start();
     }
+
+
+    
 
     @Override
     protected void onStart() {
